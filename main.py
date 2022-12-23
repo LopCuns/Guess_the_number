@@ -27,4 +27,4 @@ def game(response = generate(),score = 10):
         game(response,score - 1)
 def restart():
     game(generate(),10)
-game()
+game() 
